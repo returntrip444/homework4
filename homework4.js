@@ -1,6 +1,6 @@
 
 
-// Creating array for correct Answers, wrong Answers, and questions
+// Creating array for correct Answers, wrong Answers, and questions, time
 
 var codeCorrectAnswers =  ["javascript", "cascading style sheet", "img href", "set-animate", "Console log" ];
 var codeQuestions = ["what is the most common computer language for modifying a web page", "what does CSS stand for?", "How do you refrence an image in a HTML?", "How do you make an image move in an html?", "where in the inspect page can you find strings and arrays?"];
@@ -8,6 +8,34 @@ var codeWrongAnswers = ["DOM", "CSS", "Jquery", "HTML", "Consumer style sheet", 
 var timeEl = ["6000 miliseconds"]
 
 // set time for code quiz to 60 secondsLeft
+
+
+function  () {
+    codeCorrectAnswers.textContent = "";
+    codeCorrectAnswers.textContent = codeCorrectAnswers.length
+    for (var i = 0; i < codeCorrectAnswers.length; i++) {
+        var newItem = document.createElement();
+        newItem.textContent = codeCorrectAnswers[i]
+        codeCorrectAnswers.appendChild(newItem)
+
+        codeWrongAnswers.textContent = "";
+        codeWrongtAnswers.textContent = codeWrongtAnswers.length
+        for (var i = 0; i < codeWrongAnswers.length; i++) {
+            var newItem = document.createElement();
+            newItem.textContent = codeWrongAnswers[i]
+            codeWrongAnswers.appendChild(newItem)
+
+            codeQuestion.textContent = "";
+        codeQuestions.textContent = codeQuestions.length
+            for (var i = 0; i < codeCorrectAnswers.length; i++) {
+                var newItem = document.createElement();
+                newItem.textContent = codeQuestions[i]
+                codeQuestions.appendChild(newItem)
+
+    }
+}
+renderToDo();
+console.log(todos);
 
 
 function setTime () {
