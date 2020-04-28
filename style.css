@@ -1,0 +1,41 @@
+.time{
+    text-align: center;
+    color: red;
+}
+
+body{
+    background-color: black;
+}
+
+ h1 {
+     text-align: center;
+     color: darkgray;
+ }
+
+ header {
+     text-align: center;
+     color: red;
+ }
+#quiz-container{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    
+    text-align: center;
+    margin-bottom: 40px; 
+    margin-top: 40px;
+    
+}
+
+.timerButton{
+    
+    
+    
+    color: rgb(45, 3, 83);
+}
+
+
+.body{
+    background-color: black;
+}

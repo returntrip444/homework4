@@ -1,0 +1,21 @@
+
+
+
+.quiz-container{
+    font-size: 50px;
+    font-style: italic;
+    background-color: blue;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.timerButton{
+    font-size: 40px;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+.body{
+    background-color: black;
+}
